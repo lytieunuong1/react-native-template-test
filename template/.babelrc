@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": "src/features",
+            "rootPathPrefix": "@features"
+          },
+          {
+            "rootPathSuffix": "src/assets",
+            "rootPathPrefix": "@assets"
+          },
+          {
+            "rootPathSuffix": "src/common",
+            "rootPathPrefix": "@common"
+          },
+          {
+            "rootPathSuffix": "src",
+            "rootPathPrefix": "@root"
+          }
+        ]
+      }
+    ]
+  ]
+}
